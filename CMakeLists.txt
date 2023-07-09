@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.23)
-project(trabalho)
+project(dpll)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 20)
 
-add_executable(trabalho main.cpp)
+add_executable(dpll main.cpp)

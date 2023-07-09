@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: trabalho
+# Project: dpll
 # Configurations: Debug
 # =============================================================================
 
@@ -39,49 +39,49 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/Caio/Documents/UFC/4$ semestre/Logica/trabalho/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/Caio/Documents/UFC/4$ semestre/Logica/N-Rainhas-Solver/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target trabalho
+# Object build statements for EXECUTABLE target dpll
 
 
 #############################################
-# Order-only phony target for trabalho
+# Order-only phony target for dpll
 
-build cmake_object_order_depends_target_trabalho: phony || CMakeFiles/trabalho.dir
+build cmake_object_order_depends_target_dpll: phony || CMakeFiles/dpll.dir
 
-build CMakeFiles/trabalho.dir/main.cpp.obj: CXX_COMPILER__trabalho_Debug C$:/Users/Caio/Documents/UFC/4$ semestre/Logica/trabalho/main.cpp || cmake_object_order_depends_target_trabalho
-  DEP_FILE = CMakeFiles\trabalho.dir\main.cpp.obj.d
-  FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\trabalho.dir
-  OBJECT_FILE_DIR = CMakeFiles\trabalho.dir
-  TARGET_COMPILE_PDB = CMakeFiles\trabalho.dir\
-  TARGET_PDB = trabalho.pdb
+build CMakeFiles/dpll.dir/main.cpp.obj: CXX_COMPILER__dpll_Debug C$:/Users/Caio/Documents/UFC/4$ semestre/Logica/N-Rainhas-Solver/main.cpp || cmake_object_order_depends_target_dpll
+  DEP_FILE = CMakeFiles\dpll.dir\main.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles\dpll.dir
+  OBJECT_FILE_DIR = CMakeFiles\dpll.dir
+  TARGET_COMPILE_PDB = CMakeFiles\dpll.dir\
+  TARGET_PDB = dpll.pdb
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target trabalho
+# Link build statements for EXECUTABLE target dpll
 
 
 #############################################
-# Link the executable trabalho.exe
+# Link the executable dpll.exe
 
-build trabalho.exe: CXX_EXECUTABLE_LINKER__trabalho_Debug CMakeFiles/trabalho.dir/main.cpp.obj
+build dpll.exe: CXX_EXECUTABLE_LINKER__dpll_Debug CMakeFiles/dpll.dir/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\trabalho.dir
+  OBJECT_DIR = CMakeFiles\dpll.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\trabalho.dir\
-  TARGET_FILE = trabalho.exe
-  TARGET_IMPLIB = libtrabalho.dll.a
-  TARGET_PDB = trabalho.pdb
+  TARGET_COMPILE_PDB = CMakeFiles\dpll.dir\
+  TARGET_FILE = dpll.exe
+  TARGET_IMPLIB = libdpll.dll.a
+  TARGET_PDB = dpll.pdb
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "C:\Users\Caio\Documents\UFC\4 semestre\Logica\trabalho\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Caio\Documents\UFC\4 semestre\Logica\N-Rainhas-Solver\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -92,7 +92,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "C:\Users\Caio\Documents\UFC\4 semestre\Logica\trabalho\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Caio\Documents\UFC\4 semestre\Logica\trabalho" -B"C:\Users\Caio\Documents\UFC\4 semestre\Logica\trabalho\cmake-build-debug""
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Caio\Documents\UFC\4 semestre\Logica\N-Rainhas-Solver\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Caio\Documents\UFC\4 semestre\Logica\N-Rainhas-Solver" -B"C:\Users\Caio\Documents\UFC\4 semestre\Logica\N-Rainhas-Solver\cmake-build-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -102,7 +102,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build trabalho: phony trabalho.exe
+build dpll: phony dpll.exe
 
 # =============================================================================
 # Folder targets.
@@ -110,9 +110,9 @@ build trabalho: phony trabalho.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/Caio/Documents/UFC/4 semestre/Logica/trabalho/cmake-build-debug
+# Folder: C:/Users/Caio/Documents/UFC/4 semestre/Logica/N-Rainhas-Solver/cmake-build-debug
 
-build all: phony trabalho.exe
+build all: phony dpll.exe
 
 # =============================================================================
 # Built-in targets

@@ -1,3 +1,3 @@
-C:/Users/Caio/Documents/UFC/4 semestre/Logica/trabalho/cmake-build-debug/CMakeFiles/trabalho.dir
-C:/Users/Caio/Documents/UFC/4 semestre/Logica/trabalho/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Caio/Documents/UFC/4 semestre/Logica/trabalho/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Caio/Documents/UFC/4 semestre/Logica/N-Rainhas-Solver/cmake-build-debug/CMakeFiles/dpll.dir
+C:/Users/Caio/Documents/UFC/4 semestre/Logica/N-Rainhas-Solver/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Caio/Documents/UFC/4 semestre/Logica/N-Rainhas-Solver/cmake-build-debug/CMakeFiles/rebuild_cache.dir

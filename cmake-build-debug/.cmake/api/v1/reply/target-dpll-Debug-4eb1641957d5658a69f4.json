@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "trabalho.exe"
+			"path" : "dpll.exe"
 		},
 		{
-			"path" : "trabalho.pdb"
+			"path" : "dpll.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -41,7 +41,7 @@
 					"fragment" : "-g"
 				},
 				{
-					"fragment" : "-std=gnu++14"
+					"fragment" : "-std=gnu++20"
 				}
 			],
 			"language" : "CXX",
@@ -51,7 +51,7 @@
 				[
 					1
 				],
-				"standard" : "14"
+				"standard" : "20"
 			},
 			"sourceIndexes" : 
 			[
@@ -59,7 +59,7 @@
 			]
 		}
 	],
-	"id" : "trabalho::@6890427a1f51a3e7e1df",
+	"id" : "dpll::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -79,8 +79,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "trabalho",
-	"nameOnDisk" : "trabalho.exe",
+	"name" : "dpll",
+	"nameOnDisk" : "dpll.exe",
 	"paths" : 
 	{
 		"build" : ".",
